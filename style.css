@@ -1,0 +1,14 @@
+html{
+    margin: 50px;
+}
+.div1{
+    font-size: 20px;
+    position: sticky;   
+}
+#heading1{
+    width: 50%;
+}
+#heading2{
+    float:right;
+    width:50%;
+}
