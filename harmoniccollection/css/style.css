@@ -57,7 +57,7 @@ p{
     background-color: white;
     border-radius:25%;
     font-family:"helvetica-light";
-    font-size:12px;
+    font-size:14px;
     position:fixed;
     bottom:5%;
     padding:0px;
@@ -69,7 +69,7 @@ p{
     padding:5px;
     border-radius:15%;
     font-family:"helvetica-light";
-    font-size:12px;
+    font-size:14px;
     position:fixed;
     top:5%;
     right:5%;
@@ -84,19 +84,19 @@ p{
     display:none;
     text-align:center;
 }
-#line{
-    position:fixed;
-    height:100%;
-    float: right;
-    right:20%;
-}
-#cup{
+.bigimg{
     position: fixed;
     right:4%;
     float:right;
     width:50%;
     height:100%;
-    background-image: url(paintcup.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+#line{
+    background-image: url(line.gif);
+}
+#cup{
+    background-image: url(paintcup.gif);
+}
