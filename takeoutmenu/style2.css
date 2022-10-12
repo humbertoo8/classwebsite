@@ -1,19 +1,26 @@
 html{
+    height:100%;
+    width:100%;
+}
+body{
     background-color: yellow;
     margin-left: 125px;
     margin-right: 125px;
     margin-top:50px;
 }
 div{
+    vertical-align: top;
+    font-family: sans-serif;
+    font-size: 14px;
     display:inline-block;
 }
 .div1{
-    float:left;
-    width: 50%;
+    width: 48%;
+    height:90%;
 }
 .div2{
-    float:right;
     width:50%;
+    height: 90%;
 }
 p{
     font-family: sans-serif;
@@ -28,12 +35,10 @@ p{
     text-align: center;
 }
 #bottom{
-    align-content: center;
-    text-align: center;
+    width: 100%;
+    display:block;
+    text-align:center;
     font-size: 16px;
-    position: fixed;
-    bottom: 20px;
-    
 }
 .subhead{
     font-size: 18px;
