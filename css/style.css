@@ -35,6 +35,10 @@ body{
     top: 0;
     display: inline-block;
 }
+.div3{
+    position:relative;
+    top:25%;
+}
 #heading1{
     width: 50%;
 }
@@ -47,12 +51,16 @@ p{
     text-align: center;
     
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1150px) {
+    .home{
+        background-image:url(backgroundmid.png);
+        }
+}
+@media screen and (max-width:725px){
     .home{
         background-image:url(backgroundmobile.png);
     }
     .div1{
         font-size: 12px;
     }
-}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
