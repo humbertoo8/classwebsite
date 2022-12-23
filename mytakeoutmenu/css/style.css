@@ -1,0 +1,19 @@
+html{
+    width:100%;
+    height: 100%;
+}
+body{
+    margin:50px;
+}
+@font-face{
+    font-family:"helveticaneue";
+    src:url(helveticaneue.ttc);
+}
+.title{
+    font-family:"helveticaneue-light";
+    font-size:150px
+}
+.subhead{
+    font-family:"helveticaneue-thin";
+    font size: 20px;
+}
